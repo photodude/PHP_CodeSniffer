@@ -69,4 +69,20 @@ try {
     // TODO: Handle this exception later :-)
 }
 
+try {
+    doSomething();
+} catch (SomeException $e) {
+    // ignore
+}
+
+try {
+    // Something
+}
+catch (Exception $e) {
+    // Something
+}
+finally {
+    // Something
+}
+
 if (true) {} elseif (false) {}
